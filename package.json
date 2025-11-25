@@ -1,0 +1,27 @@
+{
+  "name": "cpu-stress-monitor",
+  "version": "1.0.0",
+  "description": "CPU Stress Test & Monitoring Suite using Electron, Vite, and React.",
+  "main": "dist-electron/main.cjs",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && electron-builder",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "electron-updater": "^6.1.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^3.5.0",
+    "systeminformation": "^5.22.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "electron": "^28.2.0",
+    "electron-builder": "^24.9.1",
+    "vite": "^5.0.12",
+    "vite-plugin-electron": "^0.15.1",
+    "vite-plugin-electron-renderer": "^0.14.5"
+  }
+}
